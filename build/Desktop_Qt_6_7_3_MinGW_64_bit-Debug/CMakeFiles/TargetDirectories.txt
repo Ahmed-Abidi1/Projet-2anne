@@ -1,0 +1,6 @@
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/proji.dir
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/proji_qmlimportscan.dir
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/proji_autogen_timestamp_deps.dir
+C:/Users/Mega-Pc/Desktop/qt/proji/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/proji_autogen.dir

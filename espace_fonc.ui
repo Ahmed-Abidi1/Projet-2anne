@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Espace_fonc</class>
+ <widget class="QDialog" name="Espace_fonc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1441</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(217, 217, 217);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-39</y>
+     <width>241</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(36, 179, 122);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="ges_emp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+color:rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Employé</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ges_mat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+color:rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Matériels</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ges_es_vert">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 211, 211);
+color: rgb(255, 191, 62);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Espaces Verts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ges_vehic">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+color:rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Véhicule</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ges_appar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+color:rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Appartements</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deconnect">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+color: rgb(170, 0, 0);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Se Déconnecter</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>59</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>40</y>
+     <width>171</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>Fonctionalités</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>40</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>Accueil</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>90</y>
+     <width>491</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+background-color: rgb(0, 125, 209);
+color:  rgb(255, 191, 62);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+border: 2px solid ;
+border-radius: 12px; 
+padding: 5px;
+border-color: rgb(255, 191, 62);
+}</string>
+   </property>
+   <property name="title">
+    <string>Statistiques</string>
+   </property>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>471</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>49</y>
+      <width>471</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>470</y>
+     <width>691</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+background-color: rgb(0, 125, 209);
+color:  rgb(255, 191, 62);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+border: 2px solid ;
+border-radius: 12px; 
+padding: 5px;
+border-color: rgb(255, 191, 62);
+}</string>
+   </property>
+   <property name="title">
+    <string>Envoi automatique du SMS </string>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Id emplyé</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="id">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;iden&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 9pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Nom d'espace vert</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="espace_vert">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;iden&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 9pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>40</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Date de maintenance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="envoyer">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>70</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+    </property>
+    <property name="text">
+     <string>Valider</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="date">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>70</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 900 9pt &quot;Franklin Gothic&quot;;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>90</y>
+     <width>691</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+background-color: rgb(0, 125, 209);
+color:  rgb(255, 191, 62);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+border: 2px solid ;
+border-radius: 12px; 
+padding: 5px;
+border-color: rgb(255, 191, 62);
+}</string>
+   </property>
+   <property name="title">
+    <string>Géolocalisation</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>541</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Enter les coordonnées GPS </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lon">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>60</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;iden&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 9pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lat">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;iden&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 9pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Latitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Longitude</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recherche2">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>60</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+    </property>
+    <property name="text">
+     <string>Rechercher</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="map_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>671</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(62, 62, 62);
+</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

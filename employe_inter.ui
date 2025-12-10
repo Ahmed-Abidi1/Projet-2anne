@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>employe_inter</class>
+ <widget class="QDialog" name="employe_inter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>681</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(217, 217, 217);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>659</width>
+     <height>497</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Franklin Gothic</family>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <fontweight>Black</fontweight>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(217, 217, 217);
+background-color: rgb(0, 125, 209);
+font: 900 12pt &quot;Franklin Gothic&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Accès Employé&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="usernameLineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 900 9pt &quot;Franklin Gothic&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nom d'utilisateur</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passwordLineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 900 9pt &quot;Franklin Gothic&quot;;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Mot de passe</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="loginButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Se connecter</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="faceIdButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(36, 179, 122);
+font: 900 12pt &quot;Franklin Gothic&quot;;
+color: rgb(0, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Simuler Face ID</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
